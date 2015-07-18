@@ -19,7 +19,8 @@
 	<ProgressBar
 		style="?android:attr/progressBarStyleHorizontal"
 		android:layout_height="wrap_content"
-		android:layout_width="match_parent"/>
+		android:layout_width="match_parent"
+		android:id="@+id/pbIss"/>
 
 	<View
 		android:background="?android:attr/dividerVertical"
@@ -34,7 +35,8 @@
 	<ProgressBar
 		style="?android:attr/progressBarStyleHorizontal"
 		android:layout_height="wrap_content"
-		android:layout_width="match_parent"/>
+		android:layout_width="match_parent"
+		android:id="@+id/pbScs"/>
 
 	<View
 		android:background="?android:attr/dividerVertical"
@@ -49,12 +51,14 @@
 		<Button
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
-			android:text="@string/startfill"/>
+			android:text="@string/startfill"
+			android:id="@+id/startFill"/>
 
 		<Button
 			android:layout_height="wrap_content"
 			android:layout_width="wrap_content"
-			android:text="@string/stopfill"/>
+			android:text="@string/stopfill"
+			android:id="@+id/stopFill"/>
 
 	</LinearLayout>
 
