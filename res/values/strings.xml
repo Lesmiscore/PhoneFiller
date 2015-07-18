@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, MainActivity!</string>
     <string name="app_name">PhoneFiller</string>
-
+	<string name="intsize">Internal Storage state</string>
+	<string name="sdsize">SD card state</string>
+	<string name="startfill">Start Filling</string>
+	<string name="stopfill">Stop Filling (Force close)</string>
 </resources>
